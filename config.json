@@ -1,14 +1,14 @@
 {
     "captcha_keys": {
-        "capsolver": "",
+        "capsolver": "CAP-D886AB3F6F6B2C0AD41E2FED999C066A",
         "capmonster": ""
     },
 
     "custom_settings": {
-        "mail_domain": "",
-        "password": "",
-        "username": "",
-        "invite_code": "",
+        "mail_domain": "eithelsayosaki@gmail.com",
+        "password": "55RinaFacha_",
+        "username": "rinafachera1",
+        "invite_code": "https://discord.com/invite/SZzp57Tw",
         "threads": 100
     }
 }
