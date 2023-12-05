@@ -1,4 +1,4 @@
-import os, json, time, random, string, ctypes, getpass, sys, threading, concurrent.futures, base64
+import os, json, time, random, string, ctypes, getpass, sys, threading, concurrent.futures, base64, capsolver
 
 try:
     import tls_client
@@ -266,3 +266,15 @@ for _ in range(int(howmany)):
 
 for thread in threads:
     thread.join()
+
+#pip install --upgrade capsolver
+#export CAPSOLVER_API_KEY='...'
+
+import capsolver
+# capsolver.api_key = "..."
+solution = capsolver.solve({
+            "type": "ReCaptchaV2TaskProxyLess",
+            "websiteURL": "https://www.google.com/recaptcha/api2/demo",
+            "websiteKey": "6Le-wvkSAAAAAPBMRTvw0Q4Muexq9bi0DJwx_mJ-",
+          })
+
